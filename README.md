@@ -246,6 +246,6 @@ id,title,description,status,created_at
 | `ECONNREFUSED` при запросах к backend | PostgreSQL не запущен или неверные данные в `.env` | Проверить, что служба PostgreSQL запущена, сверить `DB_HOST`, `DB_PORT`, `DB_USER`, `DB_PASSWORD` |
 | Ошибка CORS в консоли браузера | Backend не разрешает запросы с адреса фронтенда | Убедиться, что в `app.js` подключён `app.use(cors())` |
 
-## Автор
+## Автор Ядрышникова Варвара Алексеевна
 
 Учебный проект, выполнен в рамках практики.
